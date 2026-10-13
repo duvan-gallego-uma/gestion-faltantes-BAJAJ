@@ -1,0 +1,21 @@
+# Datos de la empresa: NUNCA se suben al repositorio
+data/*
+!data/.gitkeep
+*.xlsx
+*.xlsm
+*.xls
+*.csv
+respaldo*.json
+
+# Generados
+dist/
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.db
+*.db-wal
+*.db-shm
+.DS_Store
+Thumbs.db
